@@ -1,0 +1,47 @@
+.bg_one {
+    background-color: #1e9fff;
+    color: white;
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+.bg_two {
+    background-color: #ff5722;
+    color: white;
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 8px;
+}
+.bg_one:hover {
+    background-color: #1291bd;
+    transition: all 0.8s;
+    cursor: pointer;
+}
+.bg_two:hover {
+    transition: all 0.8s;
+    cursor: pointer;
+    background-color: red;
+}
+
+table thead th span{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+table td {
+    text-align: center;
+}
+table td span {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
